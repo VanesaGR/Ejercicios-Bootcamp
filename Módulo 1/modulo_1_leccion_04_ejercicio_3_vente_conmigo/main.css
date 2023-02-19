@@ -1,0 +1,15 @@
+header{
+    background-color: violet;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+}
+
+main{
+    border: 2px solid black;
+    width: 70%;
+    height: 150px;
+    overflow: scroll;
+    position: relative;
+}

@@ -1,0 +1,32 @@
+#uno, #dos, #tres{
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    /*display: block; SE QUEDAN LOS TRES, UNO ENCIMA DEL OTRO*/
+    /*display: inline; ALGO SALE MAL*/
+    display: inline-block; /*SE ALINEAN UNO AL LADO DEL OTRO*/
+    /*display: none; DESAPARECEN*/
+}
+
+#elmo{
+    height: 200px;
+    width: 200px;
+}
+#elmo2{
+    width: 100px;
+    height: 100px;
+}
+
+#foto{
+    width: 100px;
+    height: 100px;
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+    box-sizing: border-box; /*SE SALE LA FOTO DEL DIV*/
+    margin-left: auto; /*SE CENTRA EL DIV*/
+    margin-right: auto;
+}

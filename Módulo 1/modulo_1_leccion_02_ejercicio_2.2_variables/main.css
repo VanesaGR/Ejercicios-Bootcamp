@@ -1,0 +1,53 @@
+:root{
+    /*Escribe aquí tu código*/
+    --brand-color: green;
+    --brand-margin: 0;
+    --brand-color2: grey;
+  }
+  
+  
+  body {
+    margin: var(--brand-margin);
+  }
+  
+  header{
+    background-color:#eaeaea;
+    padding:20px
+  }
+  
+  main{
+    padding:20px
+  }
+  
+  p{
+    width:50%;
+    font-size: 16px
+  }
+  
+  ul{
+    list-style-type:none;
+    padding:0
+  }
+  
+  .title{
+    color:var(--brand-color2);
+    margin: var(--brand-margin);
+  }
+  
+  .subtitle{
+    color:var(--brand-color2);
+    margin: var(--brand-margin);
+  }
+  
+  .menu li {
+    display:inline
+  }
+  
+  .menu a {
+    color: var(--brand-color);
+    text-decoration:none
+  }
+  
+  p a {
+    color: var(--brand-color);
+  }

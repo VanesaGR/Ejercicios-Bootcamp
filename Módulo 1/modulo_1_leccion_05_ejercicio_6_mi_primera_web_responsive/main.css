@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: lightgrey;
+    height: fit-content;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+.verde {
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+    
+main {
+    background-color: yellow;
+    width: 100%;
+}
+    
+footer {
+    background-color: darkgrey;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+    
+h2,h3 {
+    padding-bottom: 10px;
+}
+
+.square {
+    flex: none;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+@media all and (min-width: 481px){
+    header{
+        margin-bottom: 20px;
+    }
+
+    .cuerpo-pag{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .verde{
+        width: 20%;
+        background-color: greenyellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: fit-content;
+        width: 10%;
+    }
+
+    main{
+        background-color: yellow;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }        
+
+    footer{
+        background-color: darkgrey;
+        padding-bottom: 20px;
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    h2, h3 {
+        padding-bottom: 10px;
+    }    
+
+    .square{
+        width: 250px;
+        height: 200px;
+        background-color: orange;
+        margin-top: 20px;
+    }
+
+    .right{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .right p{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .bloque-derecho{
+        width: 80%;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+    }
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+@media all and (min-width: 1000px){
+
+    .bloque-derecho{
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    
+    .cuerpo-pag{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    footer{
+        width: 40%;
+        margin-left: 20px;
+        height: fit-content;
+    }
+}

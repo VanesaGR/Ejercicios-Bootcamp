@@ -1,0 +1,25 @@
+html {
+    font-size: 16px;
+}
+
+.smiley {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    /*width: 0.16rem;
+    height: 0.16rem;
+    line-height: 0.16rem;*/
+    /*PARA QUE MIDA 50X50 TIENE QUE TENER COMO MEDIDA DE ALTO Y ANCHO 0.08 REM. PARA QUE MIDA 200X200 TIENE QUE MEDIR 0.32X0.32 REM*/
+    text-align: center;
+    font-family: "courier new";
+    font-weight: bold;
+    font-size: 50px;
+    /*font-size: 0.08rem*/;
+    color: #424242;
+    background: #ffcc00;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}

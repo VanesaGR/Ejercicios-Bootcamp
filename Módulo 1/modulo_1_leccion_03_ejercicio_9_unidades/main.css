@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+}
+.box {
+  background: red;
+  /*
+  35% de ancho y 35% de alto
+  */
+  width: 35vw; /*ancho, marcar 100 para 100%, 10 para el 10% y 50 para el 50%*/
+  height: 35vh; /*alto*/
+}

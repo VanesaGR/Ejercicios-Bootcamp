@@ -1,0 +1,96 @@
+body{
+    width: 100%;
+    max-width: 840px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.logo{
+    height: 160px;
+    width: 25%;
+}
+
+img{
+    width: 160px;
+    height: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#estrella{
+    height: 2rem;
+    width: 2rem;
+}
+
+.centro{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 300px;
+    width: 50%;
+}
+
+.centro p{
+    width: 100%;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.boton1{
+    background-color: gray;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    align-self: flex-start;
+    padding: 0.5rem;
+    margin-right: 10px;
+}
+
+.boton2{
+    background-color:white;
+    color:gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    align-self: flex-end;
+    padding: 0.5rem;
+}
+
+.derecha{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 150px;
+    order: 2;
+    width: 25%;
+}
+
+.fin{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.fin p{
+    text-align: center;
+    border: 1px solid gray;
+    background-color: lightgrey;
+    border-radius: 2px;
+}
+
+.valoraciones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

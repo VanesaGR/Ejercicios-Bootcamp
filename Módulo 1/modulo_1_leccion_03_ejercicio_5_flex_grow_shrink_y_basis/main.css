@@ -1,0 +1,17 @@
+header{
+    width: auto;
+    min-height: 20vh;
+    background-color: lightblue;
+}
+
+main{
+    width: auto;
+    min-height: 100vh;
+    background-color: lightgray;
+}
+
+footer{
+    width: auto;
+    min-height: 10vh;
+    background-color: lightcoral;
+}

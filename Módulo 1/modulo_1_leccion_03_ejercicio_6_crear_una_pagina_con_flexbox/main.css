@@ -1,0 +1,35 @@
+body{
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    width: 25%;
+    background-color: bisque;
+}
+
+article{
+    width: 50%;
+    background-color: lightgray;
+}
+
+footer{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: lightgreen;
+    text-align: center;
+}

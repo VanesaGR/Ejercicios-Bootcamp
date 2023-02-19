@@ -1,0 +1,94 @@
+body{
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 2px;
+    height: 5rem;
+    width: 100%;
+    align-items: center;
+}
+
+.logo{
+    width: 60%;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.derecha{
+    width: 40%;
+    align-items: flex-end;
+    text-align: right;
+    padding: 50px;
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.autor{
+    justify-content: space-between;
+    width: 50%;
+    padding-left: 450px;
+}
+
+.fecha{
+    justify-content: space-between;
+    width: 50%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+    margin-top: 80px;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+h2{
+    font-size: 8rem;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    border-top: 2px solid black;
+
+}
+
+.copyright{
+    width: 25%;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-left: 450px;
+
+}
+
+.rrss{
+    width: 5%;
+    justify-content: flex-start;
+    margin:5px;
+}
