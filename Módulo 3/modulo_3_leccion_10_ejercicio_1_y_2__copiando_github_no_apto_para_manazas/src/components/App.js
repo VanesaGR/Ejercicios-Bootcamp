@@ -25,7 +25,8 @@ const App = () => {
         <Route path='/teams' element={<Teams />}/>
         <Route path='/projects' element={<Projects />}/>
         <Route path='/settings' element={<Settings />}/>
-        <Route path='*' element={<NotFoundPage />} />
+        <Route path='/notFoundPage' element={<NotFoundPage />} /> 
+        {/* FALTA IMPLEMENTARLO BIEN (LA PAGINA NOT FOUND PAGE)*/}
       </Routes>
 
       <nav>
