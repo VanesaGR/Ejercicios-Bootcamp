@@ -8,7 +8,7 @@ const Main = ()=>{
         </form>
         <p class="clue js-clue">Pista: Escribe aquí tu número y dale a Prueba</p>      
         <p class="try js-try">Número de intentos: 0</p>
-    </main>
+</main>
     );
 }
 
